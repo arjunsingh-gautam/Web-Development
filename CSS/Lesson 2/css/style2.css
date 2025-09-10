@@ -1,0 +1,27 @@
+html {
+  font-size: 22px;
+  background-color: #333;
+}
+
+h1 {
+  color: azure;
+}
+
+/* Descendant Selector */
+div p {
+  font-family: monospace;
+  color: orangered;
+}
+
+div > p {
+  color: blueviolet;
+  font-style: italic;
+}
+
+body > p {
+  color: greenyellow;
+}
+
+div ul {
+  color: azure;
+}

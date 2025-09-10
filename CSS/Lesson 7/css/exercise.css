@@ -1,0 +1,74 @@
+* {
+  background-color: bisque;
+}
+
+#task1a:link {
+  text-decoration: none;
+  color: rgb(26, 113, 243);
+}
+
+#task1a:visited {
+  color: rgb(146, 56, 230);
+}
+
+#task1b:link {
+  text-decoration: none;
+  color: rgb(243, 17, 187);
+}
+
+#task1b:visited {
+  color: rgb(65, 10, 117);
+}
+
+#task2:link {
+  color: darkcyan;
+  text-decoration: none;
+}
+
+#task2:hover {
+  background-color: rgb(245, 171, 81);
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#task3:link {
+  color: darkcyan;
+  text-decoration: none;
+}
+
+#task3:active {
+  background-color: rgb(245, 171, 81);
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+}
+
+#task4:link {
+  color: darkcyan;
+  text-decoration: none;
+}
+
+#task4:focus {
+  outline: 2px solid rgb(228, 160, 78);
+}
+
+.nav:link {
+  color: darkcyan;
+  text-decoration: none;
+}
+
+.nav {
+  margin: 40px;
+}
+
+.btn {
+  color: darkcyan;
+  text-decoration: none;
+}
+
+.btn {
+  margin: 20px;
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}

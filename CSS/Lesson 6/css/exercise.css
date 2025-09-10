@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  background-color: #333;
+  color: bisque;
+}
+
+#task1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#task2 {
+  font-size: 24px;
+}
+
+#task3 {
+  font-weight: 900;
+}
+
+#task4 {
+  font-style: italic;
+}
+
+#task5 {
+  text-align: center;
+}
+
+#task6 {
+  text-decoration: underline;
+  text-decoration: underline wavy yellow;
+}
+
+#task7 {
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+#task8 {
+  line-height: 2rem;
+}
+
+#task9 {
+  text-transform: uppercase;
+}
+
+#task10 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: red;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px 5px black;
+}

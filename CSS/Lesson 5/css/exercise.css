@@ -1,0 +1,46 @@
+* {
+  background-color: #333;
+  color: azure;
+  box-sizing: border-box;
+}
+
+#task1 {
+  box-sizing: border-box;
+  background-color: darkcyan;
+  height: 100px;
+  width: 200px;
+}
+
+#task2 {
+  background-color: grey;
+  padding: 20px;
+}
+
+#task3 {
+  background-color: rgb(16, 207, 26);
+  border: 5px solid yellow;
+}
+
+#task4 {
+  background-color: blueviolet;
+  margin: 30px;
+}
+
+#task5 {
+  background-color: papayawhip;
+  color: black;
+  padding: 20px;
+  border: 10px solid red;
+  width: 200px;
+}
+
+#task6 {
+  color: black;
+  width: 300px;
+  padding: 15px;
+  border: 2px solid orangered;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}

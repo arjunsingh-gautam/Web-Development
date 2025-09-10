@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  background-color: #333;
+  color: azure;
+}
+
+#box-1 {
+  background-color: red;
+  padding: 30px;
+  width: 120px;
+  height: 120px;
+  border: 20px solid darkcyan;
+  border-bottom-color: blueviolet;
+  border-top-style: dashed;
+  border-top-color: aqua;
+  border-left: 20px solid yellow;
+  border-right-width: 20px;
+  border-right-color: olivedrab;
+  margin: 50px;
+} /* here total height and width: content dim+padding+border=120+2*(20+30)=220 */
+
+#box-2 {
+  background-color: red;
+  padding: 20px;
+  width: 220px;
+  height: 220px;
+  border: 20px solid rgb(0, 139, 7);
+  margin: 50px;
+  box-sizing: border-box; /* Jitna height and mention kronge utna margin or padding milakar honga */
+} /* content height,width = 220-2*(20+20)=140px
+ */

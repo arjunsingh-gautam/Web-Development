@@ -1,0 +1,14 @@
+/* External CSS
+- Cascading Precednce: Lowest
+- Best Practice makes code Modular */
+
+/* Element Selector */
+p {
+  font-size: 64px;
+  color: violet;
+}
+
+/* Universal Selector */
+* {
+  background-color: #333;
+}

@@ -1,0 +1,38 @@
+html {
+  font-size: 22px;
+}
+
+/*group selector*/
+h1,
+h2 {
+  color: blue;
+}
+
+/*element selector*/
+p {
+  color: purple /*!important*/;
+}
+/*element selector*/
+main {
+  font-family: monospace;
+}
+
+/*class selector*/
+.gray {
+  color: gray;
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+/*id selector*/
+#second {
+  font-style: italic;
+}
+
+/* Attribute selector */
+article[draggable="true"] {
+  background-color: #333;
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* p {
+  background-color: lightgray;
+}
+
+.opposite {
+  display: inline-block;
+  background-color: #333;
+  color: whitesmoke;
+  /* inline block allows us to give block level element properties to inline elements */
+/* padding: 4rem;
+  margin-top: 100px;
+  height: 4rem;
+} */
+
+ul {
+  padding: 0.5rem;
+  list-style-type: none;
+  text-align: right;
+  background-color: black;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin-inline: 0.5rem;
+}
+
+li a {
+  color: white;
+  text-decoration: underline;
+}

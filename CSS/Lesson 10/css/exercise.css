@@ -1,0 +1,53 @@
+.inline-span {
+  display: inline;
+  padding: 10px; /* Doesn't move other blocks overlap padding */
+  margin: 20px;
+  margin-top: 70px; /*Doesn't apply top and bottom margin since it's inline element*/
+  border: 3px solid red;
+  background-color: #333;
+  color: azure;
+}
+
+.block-span {
+  display: block; /* Behaves like block takes 100% of parent max-width:  */
+  background-color: #9c8a8a;
+  border: 3px solid black;
+  color: bisque;
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#task2 a {
+  display: inline-block;
+  margin: 40px;
+  background-color: bisque;
+  border: 2px solid #333;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+#task2 a:link {
+  color: rgb(226, 23, 23);
+  text-decoration: none;
+}
+
+#task2 a:hover {
+  background-color: rgb(219, 198, 173);
+  color: rgb(247, 240, 240);
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.custom-list {
+  display: list-item;
+  list-style: disc;
+  list-style-position: inside;
+  margin: 20px;
+}

@@ -1,0 +1,35 @@
+#task1 {
+  border-style: solid;
+  border-color: black;
+  background-color: rgb(255, 0, 0);
+}
+
+#task2 {
+  border-style: solid;
+  border-color: black;
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+#task3 {
+  border-style: solid;
+  border-color: black;
+  background-color: hsl(120, 100%, 50%);
+}
+
+#task4 {
+  border-style: solid;
+  border-color: black;
+  background-color: hsla(39, 100%, 50%, 0.7);
+}
+
+#task5 {
+  border-style: solid;
+  border-color: black;
+  background-color: #800080;
+}
+
+#task6 {
+  border-style: solid;
+  border-color: black;
+  background-color: darkcyan;
+}

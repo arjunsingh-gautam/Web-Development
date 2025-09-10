@@ -1,0 +1,26 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-size: 16px; */
+}
+body {
+  min-height: 100vh;
+}
+
+h1 {
+  border: 2px dashed rgb(255, 0, 0);
+  width: 50%;
+  font-size: 3rem;
+  padding: 0.5em;
+}
+
+main {
+  font-size: 16px;
+}
+
+p {
+  font-size: 2em; /*same as 32px=2*16px of parent element */
+  width: 40ch;
+}

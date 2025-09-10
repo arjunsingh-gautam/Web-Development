@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Anchor Target Attribute Demo</title>
+    <style>
+        iframe {
+            width: 80%;
+            height: 500px;
+            border: 1px solid black;
+        }
+    </style>
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+
+    <h2>Main Page</h2>
+
+    <!-- Links to load content in iframe -->
+    <a href="https://www.wikipedia.org" target="myFrame">Open in framename (myFrame)</a><br>
+    <a href="https://www.wikipedia.org" target="_top">Open in _top (full window)</a><br>
+    <a href="https://www.google.com" target="_parent">Open in _parent (parent frame)</a><br>
+    <a href="https://www.openai.com" target="_blank">Open in _blank (new tab)</a><br>
+    <a href="https://www.github.com" target="_self">Open in _self (same frame)</a><br>
+
+    <hr>
+
+    <h3>Iframe below (named "myFrame")</h3>
+
+    <iframe name="myFrame" src="https://www.google.com"></iframe>
+
+</body>
+
+</html>

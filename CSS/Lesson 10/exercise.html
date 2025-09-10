@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property Exercise</title>
+    <link rel="stylesheet" href="css/exercise.css">
+</head>
+
+<body>
+    <h1>Display Property Practice</h1>
+
+    <!-- 
+  ================================
+  Task 1: Block vs Inline
+  ================================
+  - The two <span> elements inside the <p> should be styled differently.
+  - First span (.inline-span) → keep it inline but apply padding/border to observe how it behaves.
+  - Second span (.block-span) → change to block, give background, margin, and padding to see how it forces new line.
+  -->
+    <section id="task1">
+        <h2>Task 1: Block vs Inline</h2>
+        <p>
+            This is <span class="inline-span">an inline span</span> inside a paragraph.
+            This is <span class="block-span">a block span</span> inside a paragraph.
+        </p>
+    </section>
+
+
+    <!-- 
+  ================================
+  Task 2: Inline-block Buttons
+  ================================
+  - Turn these <a> tags into button-like elements.
+  - Use display: inline-block to allow padding, margin, border-radius.
+  - Add hover effect to change background or color.
+  - Notice how they stay on the same line but still respect box properties.
+  -->
+    <section id="task2">
+        <h2>Task 2: Inline-block Buttons</h2>
+        <a href="#" class="btn">Button 1</a>
+        <a href="#" class="btn">Button 2</a>
+        <a href="#" class="btn">Button 3</a>
+    </section>
+
+
+    <!-- 
+  ================================
+  Task 3: Hide & Show Elements
+  ================================
+  - Make the first <p> visible with some styling.
+  - Completely hide the second <p> (display: none).
+  - Observe how display: none removes the element from layout flow 
+    (unlike visibility: hidden which keeps the space).
+  -->
+    <section id="task3">
+        <h2>Task 3: Hide & Show</h2>
+        <p class="visible">I am visible text.</p>
+        <p class="hidden">I am hidden text (using display: none).</p>
+    </section>
+
+
+    <!-- 
+  ================================
+  Task 4: List-item Display
+  ================================
+  - Style these <div> elements to behave like <li> items using display: list-item.
+  - Apply a custom bullet style (circle, square, roman numeral).
+  - Add padding and margin to make it look like a proper list.
+  -->
+    <section id="task4">
+        <h2>Task 4: List-item</h2>
+        <div class="custom-list">First Item</div>
+        <div class="custom-list">Second Item</div>
+        <div class="custom-list">Third Item</div>
+    </section>
+
+</body>
+
+</html>

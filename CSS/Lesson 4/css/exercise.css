@@ -1,0 +1,46 @@
+* {
+  background-color: #333;
+  color: azure;
+}
+
+#task1 {
+  border: 2px dashed red;
+  width: 200px;
+  height: 100px;
+}
+
+#task2 {
+  border: 2px dashed darkcyan;
+  width: 50%;
+  height: 25%;
+}
+
+#task3 {
+  font-size: 2em;
+}
+
+#task4 {
+  font-size: 1.5rem;
+}
+
+#task5 {
+  border: 2px dashed aqua;
+  width: 40vw;
+}
+
+#task6 {
+  border: 2px dashed yellow;
+  height: 30vh;
+}
+
+#task7 {
+  border: 2px dashed palevioletred;
+  width: 50%;
+  max-width: 400px;
+  padding: 1em;
+  margin: 1rem;
+}
+
+#task8 {
+  font-size: clamp(1rem, 5vw, 3rem);
+}

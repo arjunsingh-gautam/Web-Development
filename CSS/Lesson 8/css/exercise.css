@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(151, 231, 97);
+}
+
+#task1 {
+  list-style-type: square;
+}
+
+#task2 {
+  list-style-type: upper-roman;
+}
+
+#task3 {
+  list-style-type: decimal;
+  color: red;
+}
+
+#task4 {
+  list-style-type: lower-alpha;
+  background-color: bisque;
+}
+
+#task5 {
+  list-style-position: inside;
+  border: 2px solid black;
+  width: 300px;
+  padding: 10px;
+}
+
+#task6 li:hover {
+  color: azure;
+  cursor: pointer;
+}
+
+#task7 {
+  list-style-type: none;
+}
+
+.nav:link {
+  color: darkcyan;
+  text-decoration: none;
+}
