@@ -1,0 +1,24 @@
+#task1 p {
+  column-count: 3;
+  column-rule: 3px dotted red;
+  column-gap: 30px;
+  margin-top: 0;
+}
+
+#task3 {
+  column-count: 2;
+  column-rule: 3px dotted red;
+}
+#task3 h2,
+h3 {
+  column-span: all;
+}
+
+.card {
+  column-count: 2;
+  column-gap: 30px;
+  column-rule: 3px solid bisque;
+  background-color: #333;
+  color: azure;
+  break-inside: avoid;
+}

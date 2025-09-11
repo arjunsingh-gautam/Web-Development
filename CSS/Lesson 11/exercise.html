@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Exercise</title>
+    <link rel="stylesheet" href="css/exercise.css">
+</head>
+
+<body>
+    <!-- 
+    TASK 1:
+    Create a simple text-wrapped image.
+    - Float the image LEFT.
+    - Add margin so the text doesn’t stick to the image.
+  -->
+    <section id="task1">
+        <img src="https://via.placeholder.com/150" alt="Sample">
+        <p>
+            This is some text that should wrap around the floated image.
+            Add enough text so you can see the wrapping effect properly.
+        </p>
+    </section>
+
+    <!-- 
+    TASK 2:
+    Create a two-column layout with floats.
+    - Left column: width 30%, floated LEFT
+    - Right column: width 70%, floated RIGHT
+    - Add background colors to distinguish them.
+    - Make sure the parent container clears the floats so it has proper height.
+  -->
+    <section id="task2">
+        <div class="left-col">Left Sidebar</div>
+        <div class="right-col">Main Content Area</div>
+    </section>
+
+    <!-- 
+    TASK 3:
+    Build a horizontal navigation bar using floats.
+    - Use <ul> and <li> items.
+    - Float <li> elements LEFT to sit side by side.
+    - Style <a> links inside them like buttons.
+  -->
+    <section id="task3">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </section>
+
+    <!-- 
+    TASK 4:
+    Demonstrate clear property.
+    - Create three boxes floated LEFT.
+    - Add one more box below them that uses clear: both (so it drops below the floats).
+  -->
+    <section id="task4">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box clear-box">Cleared Box</div>
+    </section>
+
+    <!-- 
+    TASK 5:
+    Bonus: Create an image gallery with 3 floated images per row.
+    - Float images LEFT.
+    - Add margins and borders.
+    - Ensure the parent wraps the floated children correctly.
+  -->
+    <section id="task5">
+        <img src="https://via.placeholder.com/150" alt="Gallery 1">
+        <img src="https://via.placeholder.com/150" alt="Gallery 2">
+        <img src="https://via.placeholder.com/150" alt="Gallery 3">
+        <div class="clear"></div>
+        <img src="https://via.placeholder.com/150" alt="Gallery 4">
+        <img src="https://via.placeholder.com/150" alt="Gallery 5">
+        <img src="https://via.placeholder.com/150" alt="Gallery 6">
+    </section>
+</body>
+
+</html>
