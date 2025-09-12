@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position Practice</title>
+    <link rel="stylesheet" href="css/exercise.css">
+</head>
+
+<body>
+    <h1>🎯 CSS Positioning Practice</h1>
+
+    <!-- Task 1: Relative -->
+    <section id="task1">
+        <h2>Task 1: Relative Position</h2>
+        <p class="relative-box">Make this box move 50px right and 30px down
+            using <code>position: relative</code>.
+            Notice how it still takes up its original space.</p>
+    </section>
+
+    <!-- Task 2: Absolute -->
+    <section id="task2">
+        <h2>Task 2: Absolute Position</h2>
+        <div class="parent">
+            <p>I'm the parent box (give me <code>position: relative</code>).</p>
+            <div class="child">I should sit in the top-right corner of the parent using <code>position: absolute</code>.
+            </div>
+        </div>
+    </section>
+
+    <!-- Task 3: Fixed -->
+    <section id="task3">
+        <h2>Task 3: Fixed Position</h2>
+        <p>Create a button that stays fixed at the bottom-right of the page even when scrolling (like a "Back to Top"
+            button).</p>
+        <button class="fixed-btn"><a href="#">⬆ Back to Top</a></button>
+        <p style="margin-top:800px;">Scroll down to test the fixed button.</p>
+    </section>
+
+    <!-- Task 4: Sticky -->
+    <section id="task4">
+        <h2>Task 4: Sticky Header</h2>
+        <p>Create a header bar inside this section that sticks to the top of the viewport when scrolling, but only
+            within this section.</p>
+        <div class="sticky-header">I'm a sticky header</div>
+        <p style="height: 500px;">(Lots of content here... keep scrolling)</p>
+    </section>
+
+    <!-- Task 5: Z-Index -->
+    <section id="task5">
+        <h2>Task 5: Z-Index</h2>
+        <p>Stack these colored boxes on top of each other using <code>position: absolute</code>.
+            Use <code>z-index</code> so the blue box is on top, red is in the middle, and green is at the bottom.</p>
+        <div class="box red">Red</div>
+        <div class="box green">Green</div>
+        <div class="box blue">Blue</div>
+    </section>
+
+    <!-- Task 6: Hidden but Accessible -->
+    <section id="task6">
+        <h2>Task 6: Accessibility Trick</h2>
+        <button>🔍</button>
+        <span class="offscreen">Search the site</span>
+        <p>Move the <code>span</code> offscreen using <code>position: absolute</code>,
+            but keep it accessible to screen readers.</p>
+    </section>
+
+</body>
+
+</html>

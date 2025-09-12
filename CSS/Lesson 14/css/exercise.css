@@ -1,0 +1,110 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-justify {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.flex-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flex-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-container > .box {
+  background-color: bisque;
+  border: 2px solid red;
+  max-width: 150px;
+  min-width: 100px;
+}
+.flex-column > .box {
+  background-color: bisque;
+  border: 2px solid red;
+  max-width: 150px;
+  min-width: 100px;
+}
+.flex-align > .box {
+  background-color: bisque;
+  border: 2px solid red;
+  max-width: 150px;
+  min-width: 100px;
+}
+
+.flex-justify > .box {
+  background-color: bisque;
+  border: 2px solid red;
+  max-width: 150px;
+  min-width: 100px;
+}
+.flex-wrap > .box {
+  background-color: bisque;
+  border: 2px solid red;
+  width: 200px;
+  min-width: 100px;
+}
+.flex-items > .box {
+  background-color: bisque;
+  border: 2px solid red;
+  width: 200px;
+  min-width: 100px;
+}
+
+#task6 {
+  border: 3px dotted black;
+  margin-top: 10px;
+}
+
+.flex-items > .box:nth-child(1) {
+  flex-grow: 1;
+  flex-basis: 100px;
+}
+.flex-items > .box:nth-child(2) {
+  flex-grow: 2;
+  flex-basis: 100px;
+}
+.flex-items > .box:nth-child(3) {
+  flex-grow: 3;
+  flex-basis: 100px;
+}
+
+.parent-flex {
+  display: flex;
+}
+
+.child-flex {
+  background-color: bisque;
+  border: 2px solid red;
+  max-width: 150px;
+  min-width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.child-flex > .box {
+  background-color: rgb(230, 144, 39);
+  border: 2px solid rgb(17, 0, 255);
+  max-width: 20px;
+  min-width: 30px;
+}

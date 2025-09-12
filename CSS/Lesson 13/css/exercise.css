@@ -1,0 +1,59 @@
+.relative-box {
+  position: relative;
+  top: 30px;
+  left: 50px;
+  border: 3px dotted red;
+}
+
+.parent {
+  border: 3px dotted darkcyan;
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  background-color: aqua;
+  top: 0;
+}
+
+.fixed-btn {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+}
+
+.sticky-header {
+  font-size: 3rem;
+  text-align: center;
+  background-color: red;
+  position: sticky;
+  top: 0;
+}
+
+.red {
+  background-color: red;
+  position: absolute;
+  width: 100px;
+  z-index: 1;
+  left: 50%;
+}
+
+.green {
+  background-color: green;
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  width: 150px;
+}
+
+.blue {
+  background-color: blue;
+  position: absolute;
+  z-index: 999;
+  left: 50%;
+}
+
+.offscreen {
+  position: absolute;
+  left: -10000px;
+}

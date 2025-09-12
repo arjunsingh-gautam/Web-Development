@@ -1,0 +1,72 @@
+.flex-container > div {
+  min-width: 100px;
+  max-width: 200px;
+  background-color: bisque;
+  border: 3px solid red;
+  height: 50px;
+} /*flex items*/
+
+.flex-container {
+  display: flex;
+  flex-direction: row; /*sets main axis direction*/
+  /*
+| Value            | Description                      |
+| ---------------- | -------------------------------- |
+| `row`            | default, horizontal left → right |
+| `row-reverse`    | horizontal right → left          |
+| `column`         | vertical top → bottom            |
+| `column-reverse` | vertical bottom → top            | */
+
+  justify-content: center; /* Aligns items along the main axis (horizontally if row, vertically if column) */
+  /* 
+| Value           | Description                        |
+| --------------- | ---------------------------------- |
+| `flex-start`    | Items start at the beginning       |
+| `flex-end`      | Items end at the end               |
+| `center`        | Items centered                     |
+| `space-between` | Equal space **between** items      |
+| `space-around`  | Equal space **around** items       |
+| `space-evenly`  | Equal space **between and around** | */
+
+  align-items: baseline; /* Aligns items along the cross axis (perpendicular to main axis) */
+
+  /*   | Value        | Description                                |
+| ------------ | ------------------------------------------ |
+| `stretch`    | default, items stretch to container height |
+| `flex-start` | align at top                               |
+| `flex-end`   | align at bottom                            |
+| `center`     | centered along cross axis                  |
+| `baseline`   | align text baselines                       |
+ */
+
+  flex-wrap: nowrap; /* Determines if items wrap to the next line or stay in one line. */
+
+  /*  | Value          | Description                                      |
+| -------------- | ------------------------------------------------ |
+| `nowrap`       | default, all items in one line                   |
+| `wrap`         | items wrap to next line if space is insufficient |
+| `wrap-reverse` | items wrap to next line in reverse order         | */
+}
+
+.box:nth-child(1) {
+  height: 60px;
+  flex-shrink: 1;
+}
+.box:nth-child(2) {
+  height: 120px;
+  flex-shrink: 2;
+}
+.box:nth-child(3) {
+  height: 90px;
+  flex-shrink: 3;
+}
+
+.box {
+  flex: 1; /* shorthand for flex-grow:1; flex-shrink:1; flex-basis:0; */
+}
+
+/* flex-grow → how much it grows relative to siblings.
+
+flex-shrink → how much it shrinks relative to siblings.
+
+flex-basis → initial size before growing/shrinking. */

@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+body {
+  min-height: 200vh;
+}
+
+.ancestor {
+  height: 85vh;
+  width: 75vw;
+  border: 3px dotted purple;
+  margin: 140px;
+  position: relative;
+}
+
+.parent {
+  height: 50vh;
+  width: 40vw;
+  border: 3px solid red;
+  margin: 0 auto;
+  margin-top: 25%;
+  /* position: relative; */
+}
+
+.absolute {
+  height: 20px;
+  width: 70px;
+  background-color: greenyellow;
+  position: absolute; /* Take nearest parent */
+  top: 0;
+  left: 5vw;
+}
+
+.relative {
+  height: 20px;
+  width: 70px;
+  background-color: bisque;
+  position: relative;
+  left: 100px;
+}
+
+.fixed {
+  height: 20px;
+  width: 70px;
+  background-color: rgb(46, 214, 214);
+  position: fixed;
+  top: 200px;
+}
+
+.sticky {
+  height: 20px;
+  width: 70px;
+  background-color: rgb(238, 235, 73);
+  position: sticky;
+  top: 0;
+}
