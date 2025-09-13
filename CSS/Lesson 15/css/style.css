@@ -9,14 +9,44 @@
 body {
   font-family: "Roboto", sans-serif;
   min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-areas:
+    "hd hd hd hd hd hd hd hd hd"
+    "mn mn mn mn mn mn mn sb sb"
+    "ft ft ft ft ft ft ft ft ft";
+  gap: 1em;
+}
+
+.el {
+  background-color: rebeccapurple;
+  border: 3px solid red;
+  border-radius: 10px;
+  place-content: center;
+}
+
+.header {
+  grid-area: hd;
+}
+.aside {
+  grid-area: sb;
+  background-color: bisque;
+}
+.footer {
+  grid-area: ft;
+  background-color: orangered;
 }
 
 .container {
+  grid-area: mn;
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr; /* Create 3 column tracks */
+  /* grid-template-columns: 1fr 1fr 2fr; */ /* Create 3 column tracks */
+  grid-template-columns: repeat(3, 1fr); /* 3 column 1fr each */
   grid-template-rows: 1fr 2fr; /* Create 2 row tracks */
-  column-gap: 5px;
-  row-gap: 10px;
+  /* column-gap: 5px;
+  row-gap: 10px; */
+  /* grid-auto-rows: minmax(300px, auto); specify size of implcitly created rows only */
+  gap: 10px 5px; /* shorthand for column and row gap */
 }
 
 .box {
@@ -25,4 +55,21 @@ body {
   font-size: 2rem;
   padding: 0.5rem;
   border: 1px solid aqua;
+}
+
+.box:first-child {
+  background-color: blue;
+  /* 
+  /* grid-column-start: 1;  grid cell start at cloumn track-1 and end at column track-3 
+  grid-column-end: 3;
+  grid-row-start: 1;  grid cell start row track-1 and at row track-4 
+  grid-row-end: 4;*/
+
+  /* shorthand for above */
+  grid-column: 1/3;
+  grid-row: 1/4;
+
+  display: grid; /* nested grid */
+  justify-content: center; /* align along main axis (row)*/
+  align-items: center; /* align along cross axix(column) */
 }
